@@ -13,8 +13,9 @@ const Home = () => {
         <Link href="/blog" className="text-white">Blog</Link>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 
 export default Home;
+ 
