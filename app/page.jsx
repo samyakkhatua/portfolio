@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             Hey, I'm Samyak!
           </h1>
           <h4 class="text-2xl font-bold text-white">Coming Soon</h4>
+        <Link href="/blog" className="text-white">Blog</Link>
         </div>
       </div>
     </div>
