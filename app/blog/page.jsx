@@ -10,8 +10,8 @@ const Blog = () => {
       </Link>
 
       <div className="text-white">
-        Blog layout
-        <h1>headline</h1>
+        Blog layout 
+        
 
       </div>
     </>
