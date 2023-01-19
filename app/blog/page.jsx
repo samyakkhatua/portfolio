@@ -11,6 +11,7 @@ const Blog = () => {
 
       <div className="text-white">
         Blog layout
+        <h1>headline</h1>
 
       </div>
     </>
