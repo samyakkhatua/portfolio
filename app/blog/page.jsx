@@ -8,6 +8,11 @@ const Blog = () => {
       <Link href="/" className="bg-fuchsia-600">
         Home
       </Link>
+
+      <div className="text-white">
+        Blog layout
+
+      </div>
     </>
   );
 };
