@@ -8,7 +8,7 @@ const Blog = () => {
         Home
       </Link>
 
-      <div className="text-white flex width-[80%] bg-white">
+      <div className="text-white mx-[10%] width-[80%] justify-center items-center">
         Blog layout
         
 
