@@ -4,13 +4,12 @@ import Link from "next/link";
 const Blog = () => {
   return (
     <>
-      <div className="text-white">Blog</div>
       <Link href="/" className="bg-fuchsia-600">
         Home
       </Link>
 
-      <div className="text-white">
-        Blog layout 
+      <div className="text-white flex width-[80%] bg-white">
+        Blog layout
         
 
       </div>
