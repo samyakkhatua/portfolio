@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Button } from "components/ui/button"
 
 const Home = () => {
   return (
@@ -9,8 +10,12 @@ const Home = () => {
           <h1 class="mb-4 mt-64 text-3xl font-extrabold text-gray-900 md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r to-purple-800 from-indigo-500">
             Hey, I'm Samyak!
           </h1>
-          <h4 class="text-2xl font-bold text-white">Coming Soon</h4>
+          <h4 class="text-2xl font-bold text-black">Coming Soon</h4>
         <Link href="/blog" className="text-white">Blog</Link>
+
+        <div>
+      <Button>Click me</Button>
+    </div>
         </div>
       </div>
     </div> 

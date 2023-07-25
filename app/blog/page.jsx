@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { Button } from "../../components/ui/button"
+
 
 const Blog = () => {
   return (
@@ -7,6 +9,8 @@ const Blog = () => {
       <Link href="/" className="bg-fuchsia-600">
         Home
       </Link>
+
+      <Button>b</Button>
       
       <div className="text-white mx-[10%] width-[80%] justify-center items-center">
         Blog layout
