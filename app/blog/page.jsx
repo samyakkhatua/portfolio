@@ -10,7 +10,7 @@ const Blog = () => {
         Home
       </Link>
 
-      <Button>b</Button>
+      <Button>button</Button>
       
       <div className="text-white mx-[10%] width-[80%] justify-center items-center">
         Blog layout
